@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ActorContainers",
+	"Description": "Containers that allow for multi drag and drop and dynamic filtering",
+	"Category": "Other",
+	"CreatedBy": "Brandon Eduardo Retana Garcia",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ActorContainers",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ActorContainersEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
