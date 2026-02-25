@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ActorContainersEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Intermediate/Build/Win64/x64/BreakerEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Plugins/ActorContainers/Intermediate/Build/Win64/x64/UnrealEditor/Development/ActorContainersEditor/Module.ActorContainersEditor.cpp.obj"
+"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Plugins/ActorContainers/Intermediate/Build/Win64/x64/UnrealEditor/Development/ActorContainersEditor/ActorContainersEditor.cpp.obj"
+"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Plugins/ActorContainers/Intermediate/Build/Win64/x64/UnrealEditor/Development/ActorContainersEditor/FActorArrayCustomization.cpp.obj"
+"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Plugins/ActorContainers/Intermediate/Build/Win64/x64/UnrealEditor/Development/ActorContainersEditor/FActorContainerCustomization.cpp.obj"
+"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Plugins/ActorContainers/Intermediate/Build/Win64/x64/UnrealEditor/Development/ActorContainersEditor/FActorSetCustomization.cpp.obj"
+"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Plugins/ActorContainers/Intermediate/Build/Win64/x64/UnrealEditor/Development/ActorContainersEditor/Default.rc2.res"
+/OUT:"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Plugins/ActorContainers/Intermediate/Build/Win64/x64/UnrealEditor/Development/ActorContainersEditor/UnrealEditor-ActorContainersEditor.lib"

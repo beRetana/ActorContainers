@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ActorContainersEditor.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"ActorContainersEditor.cpp.obj",
+			"FActorArrayCustomization.cpp.obj",
+			"FActorContainerCustomization.cpp.obj",
+			"FActorSetCustomization.cpp.obj"
+		]
+	}
+}

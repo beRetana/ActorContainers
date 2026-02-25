@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ActorContainers.cpp.obj": [
+			"ActorContainers.init.gen.cpp.obj",
+			"ActorContainersFunctionLibrary.gen.cpp.obj",
+			"FActorArray.gen.cpp.obj",
+			"FActorSet.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"ActorContainers.cpp.obj",
+			"ActorContainersFunctionLibrary.cpp.obj"
+		]
+	}
+}

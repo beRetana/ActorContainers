@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\source\\actorcontainerseditor\\private\\widgetcustomization\\factorsetcustomization.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\intermediate\\build\\win64\\x64\\breakereditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\actorcontainerseditor\\definitions.actorcontainerseditor.h",
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\source\\actorcontainerseditor\\public\\widgetcustomization\\factorsetcustomization.h",
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\source\\actorcontainerseditor\\public\\widgetcustomization\\factorcontainercustomization.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\propertyeditor\\public\\ipropertyutilities.h",
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\source\\actorcontainers\\public\\actorcontainers\\factorset.h",
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\intermediate\\build\\win64\\unrealeditor\\inc\\actorcontainers\\uht\\factorset.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

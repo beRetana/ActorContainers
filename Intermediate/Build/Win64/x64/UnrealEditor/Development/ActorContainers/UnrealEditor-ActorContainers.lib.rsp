@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ActorContainers.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Intermediate/Build/Win64/x64/BreakerEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Plugins/ActorContainers/Intermediate/Build/Win64/x64/UnrealEditor/Development/ActorContainers/Module.ActorContainers.cpp.obj"
+"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Plugins/ActorContainers/Intermediate/Build/Win64/x64/UnrealEditor/Development/ActorContainers/ActorContainers.cpp.obj"
+"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Plugins/ActorContainers/Intermediate/Build/Win64/x64/UnrealEditor/Development/ActorContainers/ActorContainersFunctionLibrary.cpp.obj"
+"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Plugins/ActorContainers/Intermediate/Build/Win64/x64/UnrealEditor/Development/ActorContainers/Default.rc2.res"
+/OUT:"C:/Users/breta/Downloads/Proyectos_Personales/Unreal/GroupProjects/Breaker/Breaker/Plugins/ActorContainers/Intermediate/Build/Win64/x64/UnrealEditor/Development/ActorContainers/UnrealEditor-ActorContainers.lib"

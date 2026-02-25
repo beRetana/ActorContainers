@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\source\\actorcontainers\\private\\actorcontainersfunctionlibrary.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\intermediate\\build\\win64\\x64\\breakereditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\actorcontainers\\definitions.actorcontainers.h",
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\source\\actorcontainers\\public\\actorcontainersfunctionlibrary.h",
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\source\\actorcontainers\\public\\actorcontainers\\factorset.h",
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\intermediate\\build\\win64\\unrealeditor\\inc\\actorcontainers\\uht\\factorset.generated.h",
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\source\\actorcontainers\\public\\actorcontainers\\factorarray.h",
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\intermediate\\build\\win64\\unrealeditor\\inc\\actorcontainers\\uht\\factorarray.generated.h",
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\intermediate\\build\\win64\\unrealeditor\\inc\\actorcontainers\\uht\\actorcontainersfunctionlibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

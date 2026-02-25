@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\source\\actorcontainerseditor\\private\\widgetcustomization\\factorcontainercustomization.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\intermediate\\build\\win64\\x64\\breakereditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\actorcontainerseditor\\definitions.actorcontainerseditor.h",
+            "c:\\users\\breta\\downloads\\proyectos_personales\\unreal\\groupprojects\\breaker\\breaker\\plugins\\actorcontainers\\source\\actorcontainerseditor\\public\\widgetcustomization\\factorcontainercustomization.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\propertyeditor\\public\\ipropertyutilities.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\propertyeditor\\public\\detaillayoutbuilder.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\propertyeditor\\public\\idetailpropertyrow.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\propertyeditor\\public\\detailwidgetrow.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\propertyeditor\\public\\detailcategorybuilder.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\propertyeditor\\public\\idetailcustomnodebuilder.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\propertyeditor\\public\\detailbuildertypes.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\propertyeditor\\public\\propertyeditorcopypaste.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\propertyeditor\\public\\idetailchildrenbuilder.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\propertyeditor\\public\\propertycustomizationhelpers.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\propertyeditor\\public\\sresettodefaultmenu.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\actorpickermode\\public\\actorpickermode.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\scenedepthpickermode\\public\\scenedepthpickermode.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\classviewer\\public\\classviewermodule.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\unrealed\\public\\draganddrop\\actordragdropop.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\unrealed\\public\\draganddrop\\decorateddragdropop.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\unrealed\\public\\classiconfinder.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\runtime\\slatecore\\public\\styling\\slateiconfinder.h",
+            "c:\\apps\\ue_engines\\ue_5.6\\engine\\source\\editor\\editorwidgets\\public\\sdroptarget.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
