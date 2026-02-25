@@ -4,7 +4,7 @@
 
 Unreal Engine 5 plug-in that improves workflow for in-engine developers.
 
-### Paint-points:
+### Pain-points:
 - Level designers spend a lot of time placing objects and dragging references one by one into lists.
 - Changing the Actor subtype of a list requires to modify a blueprint, update references and recompile.
 - Cleaning a container from "None" values is time-consuming and often overlooked.
