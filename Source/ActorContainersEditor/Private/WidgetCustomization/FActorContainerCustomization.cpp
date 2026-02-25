@@ -15,8 +15,17 @@ void FActorContainerCustomization::BuildHeader(
 	IPropertyTypeCustomizationUtils& TypeUtils,
 	const FName ClassTypePropertyName)
 {
+	bIsFilterLocked = PropertyHandle->HasMetaData(TEXT("LockFilter"));
 	PropertyUtilities = TypeUtils.GetPropertyUtilities();
 	ClassTypeHandle = PropertyHandle->GetChildHandle(ClassTypePropertyName);
+
+	UObject* NewClassFilter{nullptr};
+	ClassTypeHandle->GetValue(NewClassFilter);
+	if (NewClassFilter == nullptr)
+	{
+		ClassTypeHandle->SetValue(GetCurrentClassFilter());
+	}
+	
 	PreviousClassType = GetCurrentClassFilter();
 	
 	ClassTypeHandle->SetOnPropertyValueChanged(
@@ -28,8 +37,6 @@ void FActorContainerCustomization::BuildHeader(
 		FSimpleDelegate::CreateRaw(
 			this,
 			&FActorContainerCustomization::OnFilterPreChanged));
-
-	bIsFilterLocked = PropertyHandle->HasMetaData(TEXT("LockFilter"));
 	
 	HeaderRow
 	.NameContent()
@@ -258,7 +265,7 @@ void FActorContainerCustomization::CleanNullsInContainer()
 void FActorContainerCustomization::DragAndDropActors(const TSharedPtr<FActorDragDropOp>& ActorsOperation)
 {
 	UClass* FilterClass = GetCurrentClassFilter();
-	for (TWeakObjectPtr<AActor> WeakActor : ActorsOperation->Actors)
+	for (TWeakObjectPtr<AActor>& WeakActor : ActorsOperation->Actors)
 	{
 		if (AActor* Actor = WeakActor.Get())
 		{
@@ -278,13 +285,12 @@ void FActorContainerCustomization::OnFilterChanged()
 		bIsReverting = false;
 		return;
 	}
-	
+
 	UObject* NewClassFilter{nullptr};
 	ClassTypeHandle->GetValue(NewClassFilter);
 	if (NewClassFilter == nullptr)
 	{
 		ClassTypeHandle->SetValue(GetCurrentClassFilter());
-		return;
 	}
 
 	const UClass* ClassType = GetCurrentClassFilter();
