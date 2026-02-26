@@ -42,6 +42,8 @@ ___
 YourProject
 ├── Plugins/
 │   └── ActorContainers/
+│       ├── Binaries/...
+│       ├── Intermediate/...
 │       ├── Source/...
 │       ├── Resources/...
 │       └── ActorContainers.uplugin
@@ -50,11 +52,9 @@ YourProject
 ├── Content/...
 └── YourProject.uproject
 ```
-4. Open your project, the editor might prompt you to "rebuild missing modules" click `Yes`,click on `Edit->Plugins->Plugin Directories`.
-5. On the `Additional Plug-in Directories` list add a new element, click on `...` and select your `Plugins` folder.
+4. Open the project and on the `Additional Plug-in Directories` list add a new element, click on `...` and select your `Plugins` folder.
 6. It might ask you to restart.
-7. Now, after restarting, again on `Edit->Plugins` a section for `Others` should be available, click on it and make sure that `ActorContainers` is toggled. 
-8. Everything should be ready to use now!
+7. Everything should be ready to use now!
 
 ### Installation Demo
 
