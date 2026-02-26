@@ -56,7 +56,13 @@ YourProject
 7. Now, after restarting, again on `Edit->Plugins` a section for `Others` should be available, click on it and make sure that `ActorContainers` is toggled. 
 8. Everything should be ready to use now!
 
-### Video Demo
+### Installation Demo
+
+[![Installation Demo](https://img.youtube.com/vi/ETgbdp495m4/0.jpg)](https://www.youtube.com/watch?v=ETgbdp495m4)
+
+### Usage Demo
+
+[![Usage Demo](https://img.youtube.com/vi/owuc2M5byqM/0.jpg)](https://www.youtube.com/watch?v=owuc2M5byqM)
 
 ___
 # Technical Breakdowns
